@@ -1,0 +1,4 @@
+com/example/reqresdemo/model/UserCreateRequest.class
+com/example/reqresdemo/controller/UserController.class
+com/example/reqresdemo/model/User.class
+com/example/reqresdemo/ReqresDemoApplication.class
