@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Repo') {
             steps {
-                git branch: 'commitmessages',
+                git branch: 'master',
                     credentialsId: 'GitLab_Jefin',
                     url: 'git@code.qburst.com:jefin/api-devergence-predictor-tool.git'
             }
