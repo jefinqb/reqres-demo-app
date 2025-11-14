@@ -38,4 +38,5 @@ public class UserController {
             return ResponseEntity.badRequest().body("Invalid ID format"); // Divergence: not defined in spec
         }
     }
+
 }
