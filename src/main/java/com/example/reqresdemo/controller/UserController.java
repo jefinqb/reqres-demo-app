@@ -32,6 +32,7 @@ public class UserController {
             if (user == null) {
                 return ResponseEntity.status(HttpStatus.NOT_FOUND).body("User not found");
             }
+
             return ResponseEntity.ok(user);
         } catch (NumberFormatException e) {
             return ResponseEntity.badRequest().body("Invalid ID format"); // Divergence: not defined in spec
